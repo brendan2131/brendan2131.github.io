@@ -49,16 +49,15 @@
   <div class="container-fluid">
     <div class="row row-grid">
       <div class="col-lg-8 col-md-6">
-        <div class="main" id="box">
-          <h2 class="header">Summary: Latitude vs. X</h2>
+        <div class="main" id="onecolumn">
+          <h2 class="header">Wind Speed</h2>
         
           
-          <div class="clearfix">
-          <p>The purpose of this project was to analyze How weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeaterMap API to assemble a dataset on over 500 cities.</p>
-          <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+          <div id="box">
+          <img src="Fig4.png" alt="Lattitude vs Wind Speed" width="100%" height="100%">
           <br>
           <br>
-          <img src="Fig1.png" alt="Lattitude x Temperature" width="100%" height="100%" class="float-left">
+          <p>The highest wind speeds were recorded in the Northern Hemisphere, but there appears to be more data collected from the Northern Hemisphere as well. These wind speeds were likely recorded in the mountainous areas of the north.</p>
           </div>
         </div>
       </div>
@@ -95,7 +94,7 @@
               <div class="col-xs-6 col-sm-3 col-md-6 align-self-sm-center">
                   <figure>
                       <a href="Fig4.html">
-                          <img src="Fig4.png" alt="Lattitude vs Wind Speed" width="100%" height="100%">
+                          <img id="selected" src="Fig4.png" alt="Lattitude vs Wind Speed" width="100%" height="100%">
                       </a>
                   </figure>
               </div>
